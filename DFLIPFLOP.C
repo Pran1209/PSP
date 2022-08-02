@@ -9,7 +9,7 @@ void main()
 	printf("Enter the input d and clock, clock > 1 to exit: ");
 	scanf(" %d %d", &d, &clk);
 
-	while ((clk < 2)&&(clk>0)) 
+	while ((clk < 2)&&(clk>-1)) 
 	       {
 
 		if(clk == 1) 
